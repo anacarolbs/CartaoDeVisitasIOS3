@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct CartaoItemView: View {
+    @StateObject var viewModel = CartaoItemViewViewModel()
+    let item: CartaoItem
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            VStack(alignment: .leading) {
+                Text(item.titleName)
+                    .font(.title)
+                    .bold()
+                Text(item.titleEmail)
+//                    .font(.footnote)
+                Text(item.titlePhone)
+                Text(item.titleJob)
+                Text(item.titleLinkedin)
+                Text(item.titleGithub)
+            }
+            Spacer()
+            
+            
+        }
     }
 }
 
 #Preview {
-    CartaoItemView()
+    CartaoItemView(item: .init(
+        id: "123",
+        titleName: "Jose",
+        titleEmail: "Jose",
+        titlePhone: "44448888",
+        titleJob: "CEO",
+        titleLinkedin: "Jose",
+        titleGithub: "Jose",
+        createdDate: Date().timeIntervalSince1970
+    ))
 }

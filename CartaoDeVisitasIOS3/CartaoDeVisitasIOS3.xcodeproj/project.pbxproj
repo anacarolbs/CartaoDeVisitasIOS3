@@ -33,6 +33,7 @@
 		8EF399752C1F49370027EEBC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399742C1F49370027EEBC /* HeaderView.swift */; };
 		8EF399772C1F70600027EEBC /* CartaoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399762C1F70600027EEBC /* CartaoButton.swift */; };
 		8EF399792C1FBE520027EEBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399782C1FBE520027EEBC /* Extensions.swift */; };
+		8EF3997B2C20AA4A0027EEBC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF3997A2C20AA4A0027EEBC /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		8EF399742C1F49370027EEBC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8EF399762C1F70600027EEBC /* CartaoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoButton.swift; sourceTree = "<group>"; };
 		8EF399782C1FBE520027EEBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8EF3997A2C20AA4A0027EEBC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				8EF3994A2C1F3AD80027EEBC /* GoogleService-Info.plist */,
 				8EF399352C1F36310027EEBC /* CartaoDeVisitasIOS3App.swift */,
 				8EF399782C1FBE520027EEBC /* Extensions.swift */,
+				8EF3997A2C20AA4A0027EEBC /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				8EF3993D2C1F36340027EEBC /* Preview Assets.xcassets in Resources */,
 				8EF3994B2C1F3AD90027EEBC /* GoogleService-Info.plist in Resources */,
+				8EF3997B2C20AA4A0027EEBC /* Launch Screen.storyboard in Resources */,
 				8EF3993A2C1F36340027EEBC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -428,6 +433,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
