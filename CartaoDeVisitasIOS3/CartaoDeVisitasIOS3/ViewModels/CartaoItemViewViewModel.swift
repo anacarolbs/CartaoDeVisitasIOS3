@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+/// ViewModel for single item view (each row in items list)
+class CartaoItemViewViewModel: ObservableObject {
+    init() {}
+}

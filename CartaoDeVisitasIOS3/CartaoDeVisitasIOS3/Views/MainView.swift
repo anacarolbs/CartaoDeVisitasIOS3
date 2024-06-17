@@ -8,13 +8,32 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = MainViewViewModel()
+    
     var body: some View {
-        LoginView()
+        if viewModel.isSignedIn, !viewModel.currentUserId.isEmpty {
+            accountView
+        } else {
+            LoginView()
+        }
+    }
+        
+    @ViewBuilder
+    var accountView: some View {
+        TabView {
+            CartaoView(userId: viewModel.currentUserId)
+                .tabItem {
+                    Label("Início", systemImage: "house")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Perfil", systemImage: "person.circle")
+                }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
+#Preview {
     MainView()
-    }
 }
+

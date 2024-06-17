@@ -31,6 +31,8 @@
 		8EF399712C1F456F0027EEBC /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399702C1F456F0027EEBC /* RegisterViewViewModel.swift */; };
 		8EF399732C1F457C0027EEBC /* CartaoItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399722C1F457C0027EEBC /* CartaoItemViewViewModel.swift */; };
 		8EF399752C1F49370027EEBC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399742C1F49370027EEBC /* HeaderView.swift */; };
+		8EF399772C1F70600027EEBC /* CartaoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399762C1F70600027EEBC /* CartaoButton.swift */; };
+		8EF399792C1FBE520027EEBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399782C1FBE520027EEBC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		8EF399702C1F456F0027EEBC /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		8EF399722C1F457C0027EEBC /* CartaoItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoItemViewViewModel.swift; sourceTree = "<group>"; };
 		8EF399742C1F49370027EEBC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8EF399762C1F70600027EEBC /* CartaoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoButton.swift; sourceTree = "<group>"; };
+		8EF399782C1FBE520027EEBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				8EF3995E2C1F43F70027EEBC /* RegisterView.swift */,
 				8EF399602C1F442E0027EEBC /* CartaoItemView.swift */,
 				8EF399742C1F49370027EEBC /* HeaderView.swift */,
+				8EF399762C1F70600027EEBC /* CartaoButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 				8EF399392C1F36340027EEBC /* Assets.xcassets */,
 				8EF3994A2C1F3AD80027EEBC /* GoogleService-Info.plist */,
 				8EF399352C1F36310027EEBC /* CartaoDeVisitasIOS3App.swift */,
+				8EF399782C1FBE520027EEBC /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -244,11 +250,13 @@
 				8EF399612C1F442E0027EEBC /* CartaoItemView.swift in Sources */,
 				8EF399692C1F45010027EEBC /* ProfileViewViewModel.swift in Sources */,
 				8EF3995F2C1F43F70027EEBC /* RegisterView.swift in Sources */,
+				8EF399772C1F70600027EEBC /* CartaoButton.swift in Sources */,
 				8EF3996B2C1F45440027EEBC /* CartaoViewViewModel.swift in Sources */,
 				8EF399632C1F44910027EEBC /* User.swift in Sources */,
 				8EF399652C1F44A70027EEBC /* CartaoItem.swift in Sources */,
 				8EF3996F2C1F455C0027EEBC /* LoginViewViewModel.swift in Sources */,
 				8EF399732C1F457C0027EEBC /* CartaoItemViewViewModel.swift in Sources */,
+				8EF399792C1FBE520027EEBC /* Extensions.swift in Sources */,
 				8EF399362C1F36310027EEBC /* CartaoDeVisitasIOS3App.swift in Sources */,
 				8EF399592C1F43A20027EEBC /* CartaoView.swift in Sources */,
 				8EF3995B2C1F43C80027EEBC /* NewItemView.swift in Sources */,

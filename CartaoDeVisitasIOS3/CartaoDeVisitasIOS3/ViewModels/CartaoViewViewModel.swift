@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+/// ViewModel for list of items view
+/// primary tab
+class CartaoViewViewModel: ObservableObject {
+    @Published var showingNewItemView = false
+    
+    init() {}
+}
