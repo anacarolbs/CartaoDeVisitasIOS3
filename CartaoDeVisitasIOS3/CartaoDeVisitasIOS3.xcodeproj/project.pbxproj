@@ -34,6 +34,7 @@
 		8EF399772C1F70600027EEBC /* CartaoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399762C1F70600027EEBC /* CartaoButton.swift */; };
 		8EF399792C1FBE520027EEBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF399782C1FBE520027EEBC /* Extensions.swift */; };
 		8EF3997B2C20AA4A0027EEBC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF3997A2C20AA4A0027EEBC /* Launch Screen.storyboard */; };
+		8EF5B8842C20CE56008CDB8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5B8832C20CE56008CDB8E /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		8EF399762C1F70600027EEBC /* CartaoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoButton.swift; sourceTree = "<group>"; };
 		8EF399782C1FBE520027EEBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8EF3997A2C20AA4A0027EEBC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		8EF5B8832C20CE56008CDB8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8EF399542C1F3E740027EEBC /* Other */,
 				8EF399552C1F3E7F0027EEBC /* Models */,
 				8EF399532C1F3E690027EEBC /* ViewModels */,
+				8EF5B8822C20CE13008CDB8E /* OnboardingScreen */,
 				8EF399522C1F3E610027EEBC /* Views */,
 				8EF3993B2C1F36340027EEBC /* Preview Content */,
 			);
@@ -163,6 +166,14 @@
 				8EF399642C1F44A70027EEBC /* CartaoItem.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		8EF5B8822C20CE13008CDB8E /* OnboardingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5B8832C20CE56008CDB8E /* ContentView.swift */,
+			);
+			path = OnboardingScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				8EF399752C1F49370027EEBC /* HeaderView.swift in Sources */,
 				8EF399382C1F36310027EEBC /* MainView.swift in Sources */,
 				8EF399712C1F456F0027EEBC /* RegisterViewViewModel.swift in Sources */,
+				8EF5B8842C20CE56008CDB8E /* ContentView.swift in Sources */,
 				8EF399672C1F44E50027EEBC /* MainViewViewModel.swift in Sources */,
 				8EF399572C1F43680027EEBC /* ProfileView.swift in Sources */,
 				8EF399612C1F442E0027EEBC /* CartaoItemView.swift in Sources */,
