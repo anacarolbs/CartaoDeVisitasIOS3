@@ -51,5 +51,5 @@ struct CartaoView: View {
 }
 
 #Preview {
-    CartaoView(userId: "IJ6MTxDhe1VWk5qFHVPJqZ439Gf1")
+    CartaoView(userId: "G03LaVMYKyZ1EWQytsGXN3nmzEK2")
 }

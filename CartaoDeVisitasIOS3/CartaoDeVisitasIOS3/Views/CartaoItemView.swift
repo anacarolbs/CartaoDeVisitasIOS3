@@ -17,12 +17,15 @@ struct CartaoItemView: View {
                 Text(item.titleName)
                     .font(.title)
                     .bold()
-                Text(item.titleEmail)
+                Text(item.titleEmail.lowercased())
 //                    .font(.footnote)
+                    .autocapitalization(.none)
                 Text(item.titlePhone)
                 Text(item.titleJob)
                 Text(item.titleLinkedin)
+                    .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                 Text(item.titleGithub)
+                    .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
             }
             Spacer()
             
